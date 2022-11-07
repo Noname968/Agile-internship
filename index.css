@@ -1,0 +1,612 @@
+body {
+  background-color: black;
+  padding: 0;
+  margin: 0;
+}
+.notific {
+  background-color: #f61354;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.notipara {
+  color: white;
+  font-family: "Visby CF";
+  font-size: 17px;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  height: 120px;
+  width: 84%;
+  margin: auto;
+  /* border: 1px solid white; */
+  justify-content: space-between;
+}
+.logo {
+  width: 50px;
+  height: 44px;
+  position: relative;
+}
+.conlogo {
+  width: 20px;
+  height: 20px;
+}
+.cl::after{
+  position: absolute;
+  content: '';
+  width: 6px;
+  height: 5.2px;
+  border-radius: 50%;
+  top: 11.5%;
+  right: 8.3%;
+  background: #4BB625;
+}
+.cl {
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    95deg,
+    #ffffff -343.09%,
+    rgba(255, 255, 255, 0) 110.96%
+  );
+  border: 1px solid rgb(52, 52, 52);
+}
+.top {
+  width: 84%;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.astroimg {
+  width: 534px;
+  height: 600px;
+  border-radius: 13px;
+}
+.topcon {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin-right: 60px;
+}
+.tp {
+  font-family: "Visby CF";
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 1px;
+  opacity: 0.5;
+  margin: 0;
+}
+.tptitle {
+  font-family: "Zuume";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 46px;
+  margin: 0 0 10px 0;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+}
+.line {
+  width: 600px;
+  opacity: 0.2;
+  border-bottom: 1px solid #ffffff;
+}
+.acon {
+  width: 400px;
+  /* border: 1px solid white; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.aconitems {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+.aconp {
+  font-family: "Visby CF";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 1px;
+  opacity: 0.5;
+  margin: 0;
+}
+.acontit {
+  font-family: "Visby CF";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 12px;
+  letter-spacing: 1px;
+  margin: 8px 0 0 0;
+}
+.aconitems2 {
+  display: flex;
+  align-items: center;
+}
+.aconitems2 > img {
+  opacity: 0.7;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+.box {
+  width: 599px;
+  height: 492px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.boxptit {
+  font-family: "Visby CF";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-align: center;
+  opacity: 0.7;
+}
+.bln {
+  opacity: 0.2;
+  border: 1px solid #ffffff;
+}
+.cp {
+  display: flex;
+  width: 350px;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 30px;
+  margin-bottom: 40px;
+  /* border: 1px solid white; */
+}
+.cupr {
+  opacity: 0.5;
+  margin-bottom: 0;
+}
+.dollar {
+  font-family: "Zuume";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 46px;
+  margin: 0;
+  line-height: 52px;
+  color: #ffffff;
+}
+.bpp {
+  margin-left: 30px;
+  font-family: "Visby CF";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 12px;
+  letter-spacing: 1px;
+  opacity: 0.6;
+}
+.payimg {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  width: 300px;
+  justify-content: space-between;
+}
+.stripe {
+  width: 106.97px;
+  height: 46px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.paypalcon {
+  width: 149.14px;
+  height: 48px;
+  background: rgba(255, 31, 31, 0.09);
+  border-radius: 10px;
+  border-color: rgba(62, 103, 255, 0.4) rgba(228, 114, 152, 0.5);
+  border-width: 1px;
+  border-style: solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.paypal {
+  width: 101.33px;
+  height: 32px;
+  border-radius: 10px;
+}
+.check {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  margin-top: 45px;
+}
+.ch {
+  margin-right: 10px;
+}
+.checkcond {
+  font-family: "Visby CF";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 12px;
+  letter-spacing: 1px;
+  opacity: 0.7;
+}
+.paybtns {
+  display: flex;
+  align-items: center;
+  margin-left: 35px;
+  width: 365px;
+  justify-content: space-between;
+}
+.pnow {
+  width: 174px;
+  height: 56px;
+  background: radial-gradient(
+    86.07% 145.35% at 28.05% 86.07%,
+    #3e67ff 0%,
+    #e47298 100%
+  );
+  border-radius: 10px;
+  font-size: 16px;
+  line-height: 25px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.reqcall {
+  width: 174px;
+  height: 56px;
+  background: rgba(255, 31, 31, 0.11);
+  border-radius: 10px;
+  font-size: 16px;
+  line-height: 25px;
+  color: #ffffff;
+  border-color: rgba(62, 103, 255, 0.4) rgba(228, 114, 152, 0.5);
+  border-width: 1px;
+  border-style: solid;
+  cursor: pointer;
+}
+.accordion1 {
+  border: 1px solid #4c4c4c;
+  width: 80%;
+  max-height: 515px;
+  margin-left: 123px;
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  opacity: 0.9;
+}
+.acctitle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 12px;
+  letter-spacing: 1px;
+  margin: 20px;
+  position: relative;
+  left: 8%;
+}
+.bl {
+  opacity: 0.2;
+  border-bottom: 1px solid #ffffff;
+}
+.accoritem {
+  width: 80%;
+  margin: 25px auto;
+}
+.accorheader {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+  position: relative;
+  cursor: pointer;
+}
+.accorheader::after {
+  position: absolute;
+  content: " \002B";
+  right: 0;
+  font-size: 1.5rem;
+}
+.accorbody {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+.accorcontent {
+  width: 750px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 144%;
+  opacity: 0.7;
+  margin: 10px 0;
+}
+.accorheader.active::after {
+  content: " \002D";
+}
+.accorheader.active + .accorbody {
+  max-height: 200px;
+}
+.accbl {
+  width: 80.2%;
+  margin: auto;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+.leri {
+  display: flex;
+  width: 80%;
+  margin: 25px auto;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.img {
+  width: 394px;
+  height: 212px;
+  opacity: 0.5;
+  border: 1px solid #ffffff;
+}
+.connect {
+  width: 80%;
+  opacity: 0.9;
+  border: 1px solid #686868;
+  color: white;
+  margin: 40px 0 40px 123px;
+}
+.concon {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 30px 0;
+}
+.linksoc {
+  width: 252px;
+  height: 252px;
+  background: rgba(34, 34, 34, 0.6);
+  position: relative;
+}
+.dis {
+  position: absolute;
+  bottom: 22%;
+  left: 13%;
+}
+.linksoc2 {
+  width: 252px;
+  height: 252px;
+  background: rgba(34, 34, 34, 0.9);
+  position: relative;
+  border: 1px solid rgb(88, 88, 88);
+}
+.fp {
+  position: absolute;
+  width: 80px;
+  height: 70px;
+  top: 4%;
+  left: 15%;
+  font-family: "Visby CF";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 100%;
+  color: #ffffff;
+}
+.sfp {
+  font-size: 24px;
+}
+.fb {
+  position: absolute;
+  bottom: 22%;
+  left: 14%;
+}
+.twitter {
+  position: absolute;
+  bottom: 20%;
+  left: 39%;
+}
+.insta {
+  position: absolute;
+  bottom: 20%;
+  left: 69%;
+}
+.linkp {
+  position: absolute;
+  top: 7%;
+  left: 15%;
+  width: 102px;
+  height: 83px;
+  font-family: "Visby CF";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 130%;
+  color: #ffffff;
+  opacity: 0.4;
+}
+span {
+  font-weight: 600;
+}
+.arrow {
+  position: absolute;
+  bottom: 22%;
+  left: 15%;
+  opacity: 0.8;
+}
+.eml {
+  /* border-bottom: 1px solid rgb(158, 158, 158); */
+  background: linear-gradient(to right ,rgba(255, 255, 255, 0),
+  rgba(255, 255, 255, 0.6),
+  rgba(255, 255, 255, 0)) !important;
+  margin: 40px 0 40px 123px;
+  width: 80%;
+  height: 1px;
+}
+.cards {
+  color: white;
+  width: 80%;
+  margin-left: 123px;
+  margin-bottom: 30px;
+  position: relative;
+  transform: translate(0, 0);
+}
+.ctitle {
+  font-family: "Visby CF";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 44px;
+  margin-bottom: 20px;
+}
+.cardcon {
+  display: flex;
+}
+.card-content {
+  width: 276.92px;
+  height: 325.25px;
+  background: #121212;
+  border-radius: 16.6285px;
+  display: flex;
+  margin: 0 15px 0 0;
+  flex-direction: column;
+  /* align-items: center; */
+}
+.cardimg {
+  width: 247.74px;
+  height: 175.29px;
+  border-radius: 11.0857px;
+  margin: 15px auto;
+}
+.cardmid {
+  display: flex;
+  margin: 5px 18px;
+}
+.cardmidimg {
+  width: 33.26px;
+  height: 33.26px;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+.cardtit {
+  font-family: "Visby CF";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12.4714px;
+  line-height: 19px;
+  color: #ffffff;
+  margin: 0;
+}
+.cardp {
+  font-family: "Visby CF";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11.0857px;
+  line-height: 17px;
+  color: #ebebeb;
+  margin: 0;
+}
+.cardbottom {
+  width: 227.74px;
+  height: 45.04px;
+  background: #080808;
+  border-radius: 11.0857px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  margin: 15px auto;
+}
+.cardprice {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 9.69998px;
+  line-height: 14px;
+}
+.buybtn {
+  width: 79.68px;
+  height: 29.79px;
+  background: radial-gradient(
+    86.07% 145.35% at 28.05% 86.07%,
+    #3e67ff 0%,
+    #e47298 100%
+  );
+  border-radius: 75.4456px;
+  cursor: pointer;
+}
+.btnp::before {
+  position: absolute;
+  margin: -342px 0 0 650px;
+  width: 27.48px;
+  height: 27.48px;
+  content: "";
+  background-image: url("/prev.png");
+  background-repeat: no-repeat;
+  background-size: 110% auto;
+  background-attachment: fixed;
+  background-position: center;
+  visibility: visible;
+}
+.btnn::before {
+  position: absolute;
+  margin: -342px 0 0 -1620px;
+  width: 26.48px;
+  height: 26.48px;
+  content: "";
+  background-image: url("/next.png");
+  background-repeat: no-repeat;
+  background-size: 110% auto;
+  background-position: center;
+  visibility: visible;
+}
+.btnn,
+.btnp {
+  visibility: hidden;
+}
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  display: none;
+}
+.butbox {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.viewbtn {
+  width: 208px;
+  margin: 20px auto;
+  height: 54px;
+  border: 1px solid #ffffff;
+  border-radius: 27px;
+  color: white;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 1px;
+  background-color: #080808;
+  cursor: pointer;
+}
+.links {
+  width: 88%;
+  margin: 30px auto;
+  color: white;
+}
+ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+li {
+  text-decoration: none;
+  margin: 0 30px 0 0;
+  font-family: "Visby CF";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  opacity: 0.4;
+}
